@@ -1,0 +1,37 @@
+:root {
+  font-family: 'DM Sans', 'Segoe UI', sans-serif;
+  color: #202b3b;
+  background: #f4f7fb;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  --page: #f4f7fb;
+  --surface: #ffffff;
+  --surface-soft: #f7f9fc;
+  --ink: #202b3b;
+  --muted: #778296;
+  --line: #e6ebf2;
+  --blue: #4569d8;
+  --blue-dark: #3455bc;
+  --blue-soft: #edf2ff;
+  --green: #24866e;
+  --amber: #b77920;
+  --rose: #c45461;
+  --shadow: 0 12px 32px rgba(34, 51, 78, 0.07);
+}
+
+:root[data-theme='dark'] {
+  color-scheme: dark;
+  --page: #171c25;
+  --surface: #202733;
+  --surface-soft: #272f3d;
+  --ink: #e9edf4;
+  --muted: #9ca8ba;
+  --line: #343e4d;
+  --blue: #8ba4ff;
+  --blue-dark: #718cf0;
+  --blue-soft: #2c3856;
+  --green: #70c9ae;
+  --amber: #e9b864;
+  --rose: #e2848e;
+  --shadow: 0 12px 32px rgba(0, 0, 0, 0.2);
+}
